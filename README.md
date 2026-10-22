@@ -4,11 +4,6 @@ Study Integrating Beta Regression and Interpretable Machine Learning" (JMIR Medi
 
 ## Analysis
 
-- **Data.** The 2023 American Hospital Association (AHA) Annual Survey and the fiscal year 2023 Medicare cost reports,
-  linked to state Medicaid expansion status and county socioeconomic data: 4114 general medical and surgical hospitals,
-  including 1315 critical access hospitals (CAHs).
-- **Outcome.** Uncompensated care ratio (UCR): total unreimbursed and uncompensated care cost (Worksheet S-10, line 31)
-  divided by gross patient revenue (Worksheet G-3, line 1). High burden: UCR >0.03.
 - **Inferential analysis.** Beta regression with standard errors clustered by state, a CAH by Medicaid expansion
   interaction, multiple imputation for the extended predictor sets, and sensitivity analyses.
 - **Machine learning.** XGBoost, random forest, multilayer perceptron, and elastic net for the continuous ratio and the
